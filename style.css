@@ -1,0 +1,101 @@
+.parent {
+  position: relative;
+}
+.parent div img {
+  width: 124px;
+}
+.parent .son1 img {
+  position: relative;
+  animation-name: one;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+@keyframes one {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 85%;
+  }
+}
+.parent .son2 img {
+  position: relative;
+  left: 85%;
+  transform: rotateY(180deg);
+  animation-name: two;
+  animation-duration: 4s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+@keyframes two {
+  0% {
+    left: 85%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+.parent .son3 img {
+  position: relative;
+  animation-name: three;
+  animation-duration: 4s;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+@keyframes three {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 85%;
+  }
+}
+.parent .son4 img {
+  position: relative;
+  left: 85%;
+  animation-name: four;
+  animation-duration: 4s;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+  transform: rotateY(180deg);
+}
+@keyframes four {
+  0% {
+    left: 70%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+.parent .son5 img {
+  position: relative;
+  animation-name: five;
+  animation-duration: 4s;
+  animation-delay: 16s;
+  animation-fill-mode: forwards;
+}
+@keyframes five {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 85%;
+  }
+}
+.parent .son6 img {
+  position: relative;
+  left: 85%;
+  animation-name: sex;
+  animation-duration: 4s;
+  animation-delay: 20s;
+  animation-fill-mode: forwards;
+  transform: rotateY(180deg);
+}
+@keyframes sex {
+  0% {
+    left: 85%;
+  }
+  100% {
+    left: 0%;
+  }
+}
